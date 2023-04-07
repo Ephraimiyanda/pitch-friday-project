@@ -1,0 +1,420 @@
+    *{
+    box-sizing: border-box;
+    padding:1px;
+    padding-left: 3px;
+    margin: 0px;
+}
+body{
+    background-color: #EAFFEE;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    
+    }
+
+
+/* header */
+header{
+    background-image: url(./images/fruits.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 719px;
+    padding: 50px;
+    opacity: 0.9;
+}
+h1{
+    margin-top: 37px;
+    margin-right: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    list-style: none;
+    align-items: center ;
+    
+}
+.nav > input{
+    border-radius: 100px;
+    height: 45px;
+    text-indent: 10px;
+    width: 50%;
+    border: none;
+    color: rgb(4, 4, 4);
+    background-color: #000;
+    opacity: .5;
+
+}
+
+.nav > input::placeholder {
+    color: white;
+    font-size: 1rem;
+}
+
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+.quick-links{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.logo{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:700;
+    font-size: 17.3684px;
+    color: #fff;
+    margin-top: -30px;
+}
+.options{
+    display: none;
+}
+.h-logo{
+    margin-top: 30px;
+}
+.header--text{
+    font-weight: bolder;
+    font-size: 35.6667px;
+    text-align: center;
+    color: #fff;
+    margin-top: 90px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#00C341;
+}
+.green{
+    color:#00C341;
+}
+.header--btn{
+    padding: 13px 45px;
+    background-color: #00C341;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+/* header */
+
+/* first */
+#firstrow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: left;
+    gap: 7px;
+    margin-bottom: 30px;
+}
+.products h1{
+    margin-left: 16px;
+}
+#firstrow img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+#firstrow section {
+    background-color:#EAFFEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    padding: 10px 0;
+    width: max-content;
+   
+}
+
+#firstrow section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 184.14px;
+    height: 102.94px;
+    padding: 12px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 4.59px;
+}
+#blue{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+#blue section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    padding: 10px 0;
+}
+#blue section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#firstrow button {
+    padding: 6px;
+    background-color: #00C341;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+#firstrow h2, #firstrow h3 {
+    font-size: 1rem;
+    font-weight: 200;
+} 
+/* first */
+.card-img-top{
+position: relative;
+width: 114.8px;
+height: 114.8px;
+}
+
+.card-body{
+position: absolute;
+width: 184.14px;
+height: 101.94px;
+background: #FFFFFF;
+border-radius: 4.59199px;
+}
+
+.btn-primary{
+position: absolute;
+width: 60px;
+height: 23px;
+/* style: none; */
+background: #00C341;
+border-radius: 7px;
+}
+.card-body a{
+width: 50px;
+height: 13px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 9.82525px;
+line-height: 13px;
+color: #EAFFEE;
+}
+
+
+.btn-primary{
+    position: absolute;
+    width:114.8px ;
+    height: 114.8px;
+    /* style:none; */
+    
+
+}
+.service{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    padding-left: 100px;
+    padding-right: 107px;
+    font-size: 20px;
+}
+.yellow{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content:safe;
+    width:100%;
+    gap: 10px;
+   
+}
+h2{
+    margin-top: 0px;
+    text-align: center;
+}
+.more{
+    margin-top: 20px;
+    margin-left: 60px;
+    width:108.73px;
+    height:53.55px;
+    border-color: #011D07;
+    border-width: 0.73px;
+    border-radius: 21.9px;
+    padding: 5px;
+    background-color: #8FE2A2;
+    font-size: 21.9px;
+    color:#FFFFFF;
+    line-height: 29.87px;
+    font-weight: 400;
+}
+.h-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.track{
+    margin-right: 50px;
+    margin-top: 40px;
+    width: 200px;
+}
+.tractor{
+    width: 402px;  
+    position: absolute; 
+    margin-left: -260px;
+}
+.circles{
+    margin-left: 0px;  
+    margin-bottom: 60px;
+}
+.yellow-circle{
+width: 250px;
+margin-top: -30px;
+}
+.purple-circle{
+    position: absolute;
+    margin-top: -60px;
+    margin-left:0px;
+}
+.red-circle{
+    margin-top: -200px;
+    margin-left: 150px;
+    position: absolute;
+}
+.track-paragraph{
+    height: 40%;
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+   padding-left: 60px;
+}
+section{
+    width:280.87px ;
+    border: 0px;
+    border-radius: 6.84px;
+    height: 350px;
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 20px;
+}
+.lift{
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.machines{
+    margin-left: 20px;
+}
+
+@media (max-width:845px){
+    .options{
+        display: block;
+
+    }
+    .quick-links{
+        display: none;
+    }
+
+p{
+    padding: 100px;
+}
+.track-paragraph{
+    padding: 0px;
+    height: 40%;
+    width: 650px;
+    text-align: left;
+    margin-top: 20px;
+   
+}
+.red-circle{
+    position: absolute;
+    width: 40px;
+    margin-top: -200px;
+    margin-left: 150px;
+   }
+
+   .show{
+    display: flex;
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .nav > input{
+    width: 50%;
+   }
+}
+
+
+
+@media (max-width:550px) {
+.quick-links{
+    display: none;
+}
+    .show{
+        margin-left: -30px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+}
+   nav{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .nav > input{
+    width: 80%;
+   }
+   h1{
+    font-size: larger;
+   }
+   .track{
+    margin-left: 50px;
+   }
+   .tractor{
+    width: 350px;
+   }
+   .circles{
+    margin-left: -20px;
+   }
+   .yellow-circle{
+    margin-left: -30px;
+    width: 200px;
+   }
+   .red-circle{
+    width: 40px;
+    margin-top: -0px;
+    margin-left: 10px;
+   }
+   .purple-circle{
+    width:50px;
+   }
+   .h-service{
+    width: 100%;
+   }
+   p{
+    padding: 20;
+  font-size: 17px;
+    text-align: center;
+   }
+   .track-paragraph{
+    padding: 0px;
+    text-align: center;
+   }
+}
