@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup/in page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/29a8691164.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="boss"> 
+        <div class="logo"><img src="images/Rectangle 4.png" style='width: 200px;'alt=""></div>
+        <div class="form-box">
+            <div class="text">Log In</div>
+         <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="Signin()">Customer</button>
+            <button type="button" class="toggle-btn" onclick="Signup()">Farmer</button>
+         </div>
+         <form id="Signup" class="input-group" action="https://formsubmit.co/renfredreuben@gmail.com" method="POST">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="text" class="input-field" placeholder="Email Id" required>
+            <input type="text" class="input-field" placeholder="Password" required>
+            <div class="pass"><div class="one"><input type="checkbox" class="check-box"><span>Remember Password</span></div><a href="#">Forgot password</a></div>
+            <button type="submit" class="submit-btn"><i class="fa-solid fa-right-to-bracket"></i> Sign In</button>
+            <button type="submit" class="submit-btn2"><i class="fa-brands fa-google fa-bounce"></i> Sign in with Google</button>
+            <h3 class="account">Don't have an account? <a href="#">Create account</a></h3> 
+        </form>
+         <form id="Signin" class="input-group" action="https://formsubmit.co/renfredreuben@gmail.com" method="POST" >
+            <input type="text" class="input-field" placeholder="full-Name" required>
+            <input type="text" class="input-field" placeholder="Email " required>
+            <input type="text" class="input-field" placeholder="Password" required>
+            <div class="pass"><div class="one"><input type="checkbox" class="check-box"><span>Remember Password</span></div><a href="#">Forgot password</a></div>
+            <button type="submit" class="submit-btn"><i class="fa-solid fa-right-to-bracket"></i> Log In</button>
+            <button type="submit" class="submit-btn2"><i class="fa-brands fa-google fa-bounce"></i> Sign in with Google</button>
+            <h3 class="account">Don't have an account? <a href="#">Create account</a></h3>        
+        </form>
+     </div>
+    </div>
+    
+  
+    <script>
+        var x = document.getElementById("Signup");
+        var y = document.getElementById("Signin");
+        var z = document.getElementById("btn");
+
+        function LogIn(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function LogIn(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    list-style: none;
+    align-items: center ;
+    
+}
+.nav > input{
+    border-radius: 100px;
+    height: 45px;
+    text-indent: 10px;
+    width: 364px;
+    border: none;
+    color: rgb(4, 4, 4);
+    background-color: #000;
+    opacity: .2;
+}
+.nav > input::placeholder {
+    color: white;
+    font-size: 1rem;
+}
+.nav ul li a{
+    /* margin-left: 20px; */
+    text-decoration: none;
+    list-style: none;
+    color: rgb(14, 13, 13);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:700;
+    font-size: 17.3684px;
+    color: rgb(10, 10, 10);
+}
+.container{
+    display: flex;
+}
+.black{
+    padding: 50px;
+    width: 20%;
+}
+.black li ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.black li ul a{
+    margin: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.folake {
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+}
+.wallet{
+    display: flex;
+}
+
+
