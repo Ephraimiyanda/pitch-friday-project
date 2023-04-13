@@ -358,7 +358,7 @@ line-height: 45px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 90%;
+    width: 80%;
 }
 .footer-div{
     display: flex;
