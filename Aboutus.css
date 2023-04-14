@@ -43,10 +43,12 @@ footer{
     width:80%;
 }
 .team{
-    display: flex;
-    flex-direction: column;
+    width: 150px;
     text-align: center;
+    font-size: smaller;
+
 }
+
 @media (max-width:800px) {
     .container{
         display:grid ;
@@ -85,13 +87,18 @@ footer{
         width: 100%;
         text-align: center;
     }
-footer{
+    footer{
+        display: flex;
+        flex-wrap: wrap;   
+        justify-content: space-between;
+     }
+/* footer{
     width: 100%;
    display: grid;
    align-content: center;
-   grid-template-columns: 100px 100px 100px;
+   grid-template-columns: 30% 20% 10%;
    grid-template-rows: 90px 100px 100px;
-
+gap: 55px;
 }
 .people{
     width: 100%;
@@ -133,7 +140,7 @@ footer{
     width:100% ;
     grid-column: 1;
     grid-row: 1;
-   }
+   } */
 
 
 .fruit{
