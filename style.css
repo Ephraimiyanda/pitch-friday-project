@@ -18,12 +18,12 @@ header{
     background-image:  url(./images/fruits.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 719px;
+    height: 609px;
     padding: 50px;
     opacity: 0.9;
 }
 h1{
-    font-size: 5vw;
+    font-size: 2vw;
     margin-top: 37px;
     margin-right: 10px;
 }
@@ -91,6 +91,9 @@ nav a:hover{
     text-align: center;
     color: #fff;
     margin-top: 90px;
+}
+.header--text h1{
+    font-size:4vw;
 }
 a{
     color: white;
@@ -365,7 +368,8 @@ line-height: 45px;
     flex-wrap: nowrap;
     justify-content: space-between;
     gap: 70px;
-    width: 100%;
+    width: 110%;
+    padding-left: 30px;
     
 }
 .footer-links a{
@@ -489,32 +493,54 @@ nav{
 
 
 
-@media (max-width:550px) {
+@media (max-width:540px) {
+    header{
+height: 550px;
+    }
+    .header--text h1{
+        font-size:  26px;
+    }
+    .header--btn{
+        height: 40px;
+        font-size: small;
+    }
+.tractor{
+    width: 20px;
+}
     #firstrow section div{
-        width: 220%;
+        width:200px;
     }
     #firstrow{
         display: flex;
-       flex-direction: column;
-       align-content: center;
         justify-content: center;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
     .footer-links{
         display: flex;
+        flex-wrap: unset;
         flex-direction: column;
+        align-content: center;
         text-align: center;
         gap: 20px;
     }
     .footer-div{
+        display: flex;
         flex-direction: column;
+        align-content: center;
         margin-left: 0px;
+        width: 90%;
     }
 .quick-links{
     display: none;
 
 }
     .show{
-        margin-left: -30px;
+        margin-left: -18px;
         display: flex;
         justify-content: space-evenly;
         width: 100%;
@@ -531,13 +557,13 @@ nav{
     font-size: larger;
    }
    .track{
-    margin-left: 140px;
+    margin-left: 120px;
    }
    .tractor{
-    width: 350px;
+    width: 340px;
    }
    .circles{
-    margin-left: -150px;
+    margin-left: -90px;
     margin-bottom: 60px;
    }
    .yellow-circle{
@@ -545,9 +571,9 @@ nav{
     width: 200px;
    }
    .red-circle{
-    width: 40px;
+    width: 37px;
     margin-top: -0px;
-    margin-left: 10px;
+    margin-left: -5px;
    }
    .purple-circle{
     width:50px;
